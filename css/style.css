@@ -29,7 +29,7 @@
     /* Fonts */
     --font-heading: 'Playfair Display', serif;
     --font-body: 'Playfair Display', serif;
-    --font-handwritten: 'Kalam', cursive;
+    --font-handwritten: 'Playfair Display', serif;
 }
 
 /* Reset & Base Styles */

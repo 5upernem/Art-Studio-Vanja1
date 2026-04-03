@@ -1,0 +1,29 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Peach/Beige background with watercolor effect -->
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5E6D3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFF8F0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg1)"/>
+
+  <!-- Watercolor circles -->
+  <circle cx="150" cy="150" r="100" fill="rgba(255, 215, 0, 0.2)"/>
+  <circle cx="650" cy="450" r="120" fill="rgba(124, 179, 66, 0.15)"/>
+  <circle cx="400" cy="300" r="80" fill="rgba(229, 57, 53, 0.1)"/>
+  <circle cx="600" cy="150" r="90" fill="rgba(197, 165, 165, 0.2)"/>
+
+  <!-- Icon - Camera -->
+  <g transform="translate(350, 250)">
+    <circle cx="50" cy="50" r="60" fill="rgba(255, 215, 0, 0.9)"/>
+    <rect x="25" y="35" width="50" height="35" fill="white" rx="5"/>
+    <circle cx="50" cy="52" r="15" fill="rgba(255, 215, 0, 0.9)" stroke="white" stroke-width="3"/>
+    <rect x="35" y="25" width="30" height="8" fill="white" rx="2"/>
+  </g>
+
+  <!-- Text -->
+  <text x="400" y="400" font-family="Kalam, cursive" font-size="36" fill="#2C1810" text-anchor="middle" font-weight="bold">АРТ СТУДИО ВАЊА</text>
+  <text x="400" y="440" font-family="Poppins, sans-serif" font-size="24" fill="#666666" text-anchor="middle">Фотографија и видео</text>
+</svg>
